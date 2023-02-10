@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: OmniOps LLC
+title: OmniOps
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,13 +28,18 @@ domain: "omniopsllc.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://omniopsllc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  OmniOpsLLC
+logo: /assets/omniopslogo.png
 
 # Build settings
-#remote_theme: jekyll/minima
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+# theme: minima
+# plugins:
+  # - jekyll-feed
+
+# Change to dark theme minima
+# minima:
+#  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.

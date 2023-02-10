@@ -1,0 +1,12 @@
+# Add in dark theme
+skin: night
+
+# Add in NAvigation Pages. 
+navigation_pages:
+  - about.markdown
+  - index.markdown
+
+t:
+
+
+
