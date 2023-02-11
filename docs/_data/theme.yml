@@ -5,6 +5,7 @@ skin: night
 navigation_pages:
   - about.markdown
   - index.markdown
+  - posts.md
 
 t:
 

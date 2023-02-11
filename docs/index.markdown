@@ -5,4 +5,4 @@
 layout: home
 ---
 
-"We build practical open-source applications that help you with every day life" 
+"We build practical applications using AI to solve everyday problems."

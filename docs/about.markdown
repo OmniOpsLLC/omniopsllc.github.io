@@ -1,13 +1,10 @@
 ---
 layout: about
-title: About Us
+title: About
 permalink: /about/
-
-author: 
-    name: Kevin Schrock
 ---
 
-## About Us
+## Our Ethos
 ### "We build practical open-source applications that help you with every day life" 
 
 ## Our Story
@@ -16,8 +13,10 @@ Our goal as an organization is to find small issues effecting us every day and c
 
 ## Our Values
 ### Practical Solutions
-We focus on developing practical solutions to every day problems so you the user can focus on whats really important. 
+We focus on developing practical solutions that will solve simple problems you face everyday.
 ### Fast Development 
-We develop and push out builds quickly to test their funcitonality and determine if their is a viable use or not. 
+We focus on quick monthly builds to quickly build and test solutions.  
 ### Free and Open
-Our solutions are always open-source and available for free in some capacity. Life changing products should not be limited to those with disposable income. 
+Our solutions will always be open-source and the code available for free to individuals.
+### Education
+We document and post the creation process of our products so you can learn and grow with us.
