@@ -5,4 +5,4 @@
 layout: home
 ---
 
-"We build practical applications using AI to solve everyday problems."
+"We build and test practical applications using AI to solve everyday problems."
