@@ -52,4 +52,4 @@ At Omni Ops, we believe in the power of open-source code and education. We are c
 
 ## First Project
 ### Infrastructure as Code Generator
-Our first project will focus on helping system administrators build out Infrastructure as Code from their current environments. The application will focus on building Ansible Playbooks from configurations pulled from network equipment like Routers, Switches
+Our first project will focus on helping system administrators build out Infrastructure as Code from their current environments. The application will focus on building Ansible Playbooks from configurations pulled from network equipment.
