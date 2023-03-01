@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## Our Ethos
-### "We build practical open-source applications that help you with every day life" 
+### "We build and test practical applications using AI to solve everyday problems" 
 
 ## Our Story
 Omni Ops was officially founded in 2023 after a long discussion over the power of OpenAI's ChatGPT and what this means for the future. The founders, Kevin Schrock and Keenan Fraylick, both saw the potential in enhancing people's workflow using AI. After this discussion, Kevin and Keenan decided to found a company dedicated to developing and testing potential products that use AI.
