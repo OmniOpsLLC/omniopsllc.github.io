@@ -152,7 +152,7 @@
         <p class="site-title">
           <a href="/">
             <img src="/assets/omniopslogo.png" alt="" class="site-logo">
-            <span>OmniOps</span>
+            <span>Omni Ops LLC</span>
           </a>
         </p>
       
@@ -234,7 +234,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
   <div class="inner">
     <div class="copyright">
       
-        <p>&copy; 2023 OmniOps.</p>
+        <p>&copy; 2023 Omni Ops LLC.</p>
       
     </div>
   </div>
