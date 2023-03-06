@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-06T11:57:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Omni Ops LLC</title><subtitle>We build practical applications using AI to solve everyday problems.</subtitle><entry><title type="html">Omni Ops LLC: Using AI to Enhance your Workflow and Projects</title><link href="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html" rel="alternate" type="text/html" title="Omni Ops LLC: Using AI to Enhance your Workflow and Projects" /><published>2023-03-01T12:00:00-07:00</published><updated>2023-03-01T12:00:00-07:00</updated><id>http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects</id><content type="html" xml:base="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html">&lt;h2 id=&quot;omni-ops-llc---who-we-are-and-what-we-do&quot;&gt;Omni Ops LLC - Who We Are and What We Do&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-06T12:10:47-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Omni Ops LLC</title><subtitle>We build practical applications using AI to solve everyday problems.</subtitle><entry><title type="html">Infrastructure as Code Generator: Project Breakdown</title><link href="http://localhost:4000/projects/iac/2023/03/06/infrastructure-as-code-generator-project-breakdown.html" rel="alternate" type="text/html" title="Infrastructure as Code Generator: Project Breakdown" /><published>2023-03-06T12:00:00-07:00</published><updated>2023-03-06T12:00:00-07:00</updated><id>http://localhost:4000/projects/iac/2023/03/06/infrastructure-as-code-generator-project-breakdown</id><content type="html" xml:base="http://localhost:4000/projects/iac/2023/03/06/infrastructure-as-code-generator-project-breakdown.html">&lt;p&gt;This post discusses the Infrastructure as Code generator that we will be building. Our goal is to test out the capabilities of OpenAI’s Codex Model’s to generate Ansible Playbooks from configurations pulled from devices.&lt;/p&gt;
+
+&lt;h3 id=&quot;sections&quot;&gt;Sections&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why build a Infrasturcutre as Code Generator&lt;/li&gt;
+  &lt;li&gt;Key Technologies in Use&lt;/li&gt;
+  &lt;li&gt;End Goal of this Project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-build-a-infrasturcutre-as-code-generator&quot;&gt;Why build a Infrasturcutre as Code Generator?&lt;/h3&gt;
+&lt;h4 id=&quot;background&quot;&gt;Background&lt;/h4&gt;
+&lt;p&gt;When I was a Network Administrator, I spent a lot of my time dedicated to projects focused around building Infrastructure as Code (IaC). This code consisted of Ansible Playbooks and DNA Center Plug and Play (DNAC PnP). This code focused on initial provisioning, auditing, and making changes to our network devices. 
+The work, at its simplist consisted of taking current configurations of our devices, and translating that to Ansible or DNAC PnP scripts; easy enough right? However, a majority of my time was spent translating Cisco configurations to code. Exploring OpenAI and their Codex model series, this seems like a perfect pairing to use AI to help translate from a configuraiton to code.&lt;/p&gt;
+&lt;h4 id=&quot;the-problem&quot;&gt;The Problem&lt;/h4&gt;
+&lt;p&gt;Generating Infrastructure as Code from current Infrastructure configurations is a tedious, time consuming act that is mainly the act of translation.&lt;/p&gt;
+&lt;h4 id=&quot;the-solution&quot;&gt;The Solution&lt;/h4&gt;
+&lt;p&gt;Build a application that can ingress current configurations for devices and output translated Infrastructure as Code.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-technologies-in-use&quot;&gt;Key Technologies in Use&lt;/h3&gt;
+&lt;p&gt;The key technologies that will be used to explore this solution will be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://platform.openai.com/docs/guides/code&quot;&gt;OpenAI’s Codex Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ansible.com/&quot;&gt;Ansible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pfsense.org/&quot;&gt;PfSense&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;codex-model&quot;&gt;Codex Model&lt;/h4&gt;
+&lt;p&gt;The Codex model is a descendnt of GPT-3 from OpenAI which can translate natural language to code. Learn more about Codex from OpenAI &lt;a href=&quot;https://platform.openai.com/docs/guides/code&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;why-codex&quot;&gt;Why Codex?&lt;/h4&gt;
+&lt;p&gt;OpenAI and their API’s have proven to be the industry leader in this technology. A notible company using GPT-3 is WARP (warp.dev insert link.). They are building a terminal that can take natural language and turn it into teminal commands.&lt;/p&gt;
+&lt;h4 id=&quot;ansible&quot;&gt;Ansible&lt;/h4&gt;
+&lt;p&gt;Ansible is a powerful platform where you build Ansible Playbooks written in YAML to automate your infrastructure changes. Learn more about Ansible and its uses &lt;a href=&quot;https://www.ansible.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;why-ansible&quot;&gt;Why Ansible?&lt;/h4&gt;
+&lt;p&gt;Ansible is a populare technology in Infrastructure automation and is simple to use. The end user can develop and deploy playbooks from their personal computer with no additional infrasturcture needed to be built out.&lt;/p&gt;
+&lt;h4 id=&quot;pfsense&quot;&gt;PfSense&lt;/h4&gt;
+&lt;p&gt;PfSense is a free network firewall distribution based on FreeBSD. It is one of the leading open source firewall solutions that you can install and is easy to use and configure with their Web Portal GUI. Learn more about PfSense &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;why-pfsense&quot;&gt;Why PfSense?&lt;/h4&gt;
+&lt;p&gt;I use PfSense personally to secure my home network and love their product. Additionally, PfSense is widely available for no cost to many users making it a perfect platform to test out this concept.&lt;/p&gt;
+
+&lt;h3 id=&quot;end-goal-of-this-project&quot;&gt;End Goal of this Project.&lt;/h3&gt;
+&lt;p&gt;The end goal of this project is to test out OpenAI’s Codex Model in building Infrastructure as Code. We hope to discover the drawbacks and benefits of using AI as a translator to Ansible Playbooks. 
+A succesfull end will be a simple applicaiton where a user can input their PfSense configuration with some basic instructions on what they want out, then they will get a ready to use Ansible Playbook that they can deploy.&lt;/p&gt;</content><author><name>Kevin Schrock</name></author><category term="projects" /><category term="iac" /><summary type="html">This post discusses the Infrastructure as Code generator that we will be building. Our goal is to test out the capabilities of OpenAI’s Codex Model’s to generate Ansible Playbooks from configurations pulled from devices.</summary></entry><entry><title type="html">Omni Ops LLC: Using AI to Enhance your Workflow and Projects</title><link href="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html" rel="alternate" type="text/html" title="Omni Ops LLC: Using AI to Enhance your Workflow and Projects" /><published>2023-03-01T12:00:00-07:00</published><updated>2023-03-01T12:00:00-07:00</updated><id>http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects</id><content type="html" xml:base="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html">&lt;h2 id=&quot;omni-ops-llc---who-we-are-and-what-we-do&quot;&gt;Omni Ops LLC - Who We Are and What We Do&lt;/h2&gt;
 &lt;p&gt;We are Omni Ops! A company that is using the power of AI to enhance your workflow. With the recent blow-up of OpenAI and their product ChatGPT, the opportunities to harness AI in everyday applications have never been more prevalent. We at Omni Ops are dedicated to exploring the possibilities of using AI in everyday applications. This post is an introduction to who we are at Omni Ops and what we do.&lt;/p&gt;
 
 &lt;h3 id=&quot;sections&quot;&gt;Sections&lt;/h3&gt;
