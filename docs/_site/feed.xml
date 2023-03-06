@@ -1,1 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-01T11:40:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Omni Ops LLC</title><subtitle>We build practical applications using AI to solve everyday problems.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-06T11:57:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Omni Ops LLC</title><subtitle>We build practical applications using AI to solve everyday problems.</subtitle><entry><title type="html">Omni Ops LLC: Using AI to Enhance your Workflow and Projects</title><link href="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html" rel="alternate" type="text/html" title="Omni Ops LLC: Using AI to Enhance your Workflow and Projects" /><published>2023-03-01T12:00:00-07:00</published><updated>2023-03-01T12:00:00-07:00</updated><id>http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects</id><content type="html" xml:base="http://localhost:4000/about/2023/03/01/omni-ops-llc-using-ai-to-enhance-your-workflow-and-projects.html">&lt;h2 id=&quot;omni-ops-llc---who-we-are-and-what-we-do&quot;&gt;Omni Ops LLC - Who We Are and What We Do&lt;/h2&gt;
+&lt;p&gt;We are Omni Ops! A company that is using the power of AI to enhance your workflow. With the recent blow-up of OpenAI and their product ChatGPT, the opportunities to harness AI in everyday applications have never been more prevalent. We at Omni Ops are dedicated to exploring the possibilities of using AI in everyday applications. This post is an introduction to who we are at Omni Ops and what we do.&lt;/p&gt;
+
+&lt;h3 id=&quot;sections&quot;&gt;Sections&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Who we are&lt;/li&gt;
+  &lt;li&gt;What we do&lt;/li&gt;
+  &lt;li&gt;Our first project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;who-we-are&quot;&gt;Who we are&lt;/h2&gt;
+&lt;p&gt;Omni Ops was officially founded in 2023 after a long discussion over the power of OpenAI’s ChatGPT and what this means for the future. The founders, Kevin Schrock and Keenan Fraylick, both saw the potential in enhancing people’s workflow using AI. After this discussion, Kevin and Keenan decided to found a company dedicated to developing and testing potential products that use AI.&lt;/p&gt;
+
+&lt;h3 id=&quot;kevin-schrock&quot;&gt;Kevin Schrock&lt;/h3&gt;
+&lt;h4 id=&quot;co-founder&quot;&gt;Co-Founder&lt;/h4&gt;
+&lt;p&gt;Kevin graduated with a degree in Cybersecurity from Purdue University in 2020. After college, Kevin started working in the corporate world where he rotated through many departments and roles. His roles included the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client Support Specialist&lt;/li&gt;
+  &lt;li&gt;ServiceNow Administrator&lt;/li&gt;
+  &lt;li&gt;Cybersecurity Analyst&lt;/li&gt;
+  &lt;li&gt;Network Administrator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In all of these roles, Kevin noticed a common goal: automation. Every team had multiple goals, all pointing towards automating redundant tasks. After working on multiple automation projects and realizing the potential of using AI to help others automate and improve their workflows, Kevin co-founded Omni Ops.&lt;/p&gt;
+
+&lt;h3 id=&quot;keenan-fraylick&quot;&gt;Keenan Fraylick&lt;/h3&gt;
+&lt;h4 id=&quot;co-founder-1&quot;&gt;Co-Founder&lt;/h4&gt;
+&lt;p&gt;Keenan graduated with a degree in Industrial Engineering from Purdue University in 2020, with a focus on Data Science and Lean studies. After college, Keenan has held roles in a variety of organizations, spanning various sectors. From his experiences, he has developed the following organizational skills:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data Science and Analytics&lt;/li&gt;
+  &lt;li&gt;Project Management&lt;/li&gt;
+  &lt;li&gt;Continuous Improvement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;He is also certified with the IISE as a Lean/Six Sigma Green Belt for his work in value-driven projects. In all of his roles and companies, Keenan has realized the importance of automation in the spirit of continuous improvement. He has also worked to implement data-driven solutions to a variety of cross-functional problems. Together with Kevin, Keenan co-founded Omni Ops.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-we-do&quot;&gt;What we do&lt;/h2&gt;
+&lt;p&gt;Omni Ops focuses on quick development of applications and fast testing to determine practical solutions of AI. We focus on creating monthly Proof of Concepts (POC) for AI applications to test out the viability of using AI for various situations.&lt;/p&gt;
+
+&lt;h3 id=&quot;focus&quot;&gt;Focus&lt;/h3&gt;
+&lt;p&gt;All of our applications focus on improving the end-users’ lives through these pillars.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Time Saver - The application must save the end-user time by eliminating redundant or unimportant tasks.&lt;/li&gt;
+  &lt;li&gt;Enhanced Workflow - The application must be seamlessly integrated with the end-user’s current workflow.&lt;/li&gt;
+  &lt;li&gt;Automation - The application must automate redundant tasks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;commitment&quot;&gt;Commitment&lt;/h3&gt;
+&lt;p&gt;At Omni Ops, we believe in the power of open-source code and education. We are committed to the following.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open Source - All of our projects will be open source. We believe in full transparency of our applications and welcome community contributors to improve what we build.&lt;/li&gt;
+  &lt;li&gt;Education - During the development lifecycle of all our products, we will post regular blog posts and YouTube videos discussing key development concepts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;first-project&quot;&gt;First Project&lt;/h2&gt;
+&lt;h3 id=&quot;infrastructure-as-code-generator&quot;&gt;Infrastructure as Code Generator&lt;/h3&gt;
+&lt;p&gt;Our first project will focus on helping system administrators build out Infrastructure as Code from their current environments. The application will focus on building Ansible Playbooks from configurations pulled from network equipment.&lt;/p&gt;</content><author><name>Kevin Schrock</name></author><category term="about" /><summary type="html">Omni Ops LLC - Who We Are and What We Do We are Omni Ops! A company that is using the power of AI to enhance your workflow. With the recent blow-up of OpenAI and their product ChatGPT, the opportunities to harness AI in everyday applications have never been more prevalent. We at Omni Ops are dedicated to exploring the possibilities of using AI in everyday applications. This post is an introduction to who we are at Omni Ops and what we do.</summary></entry></feed>

@@ -2,6 +2,7 @@
 layout: post
 title:  "Omni Ops LLC: Using AI to Enhance your Workflow and Projects"
 date:   2023-03-01 12:00:00 -0700
+author: Kevin Schrock
 categories: about
 ---
 ## Omni Ops LLC - Who We Are and What We Do
